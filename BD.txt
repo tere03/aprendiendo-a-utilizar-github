@@ -1,0 +1,20 @@
+Desde CMD...
+
+c:\wamp64\bin\mysql\mysql15.7.14\bin
+
+c:\wamp64\bin\mysql\mysql15.7.14\bin> mysql -h localhost -u root -p (enter)
+"Enter passdowd:" root
+
+show databases; 
+
+- create database epe1;
+- use epe1;
+- create table Usuario (idUsuario int primary key auto_increment,
+		        usuario varchar (30),
+		        password varchar(30),
+		 	nombres varchar(60),
+			apellidos varchar (60)
+			sexo text,
+			direccion varchar (60),
+			email varchar (60)
+			);
